@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 fab.hide();
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_SHORT).show();
+                Snackbar.make(view, "blah", Snackbar.LENGTH_SHORT).show();
                 new Timer().schedule(new TimerTask() {
                     @Override
                     public void run() { fab.show(); }
